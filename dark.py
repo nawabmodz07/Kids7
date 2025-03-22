@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 from telebot.apihelper import ApiTelegramException
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from typing import Dict, List, Optional
-from typing import tuple
+from typing import Tuple
 import sys
 import os
 
@@ -34,7 +34,7 @@ ADMIN_FILE = 'admin_data.json'
 last_attack_times = {}
 COOLDOWN_MINUTES = 0
 
-def check_cooldown(user_id: int) -> tuple[bool, int]:
+def check_cooldown(user_id: int) -> Tuple[bool, int]:
     """
     Check if a user is in cooldown period
     Returns (bool, remaining_seconds)
