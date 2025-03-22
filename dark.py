@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 from telebot.apihelper import ApiTelegramException
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from typing import Dict, List, Optional
+from typing import tuple
 import sys
 import os
 
