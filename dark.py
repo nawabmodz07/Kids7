@@ -26,7 +26,7 @@ KEY_PRICES = {
     'week': 500  # 500 Rs per week
 }
 ADMIN_IDS = [5898718899]
-BOT_TOKEN = "6303018308:AAG8Exx8kdKpvvQjJ33OU340OLHWxLapdKE"
+BOT_TOKEN = "6343477003:AAFw8TG0BTmHG-uTPzcZ3fkV121DSYm6ZUM"
 thread_count = 900
 packet_size = 9
 ADMIN_FILE = 'admin_data.json'
